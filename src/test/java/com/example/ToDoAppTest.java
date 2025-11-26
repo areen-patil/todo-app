@@ -1,4 +1,6 @@
-package test.java.com.example;
+package com.example;
+
+import com.example.ToDoApp; // This explicit import fixes the error
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
